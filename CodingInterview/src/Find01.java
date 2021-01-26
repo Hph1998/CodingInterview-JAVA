@@ -1,6 +1,3 @@
-import java.lang.annotation.Retention;
-import java.lang.reflect.Array;
-
 /**
  * @author Lucas
  * @version 1.0.0
