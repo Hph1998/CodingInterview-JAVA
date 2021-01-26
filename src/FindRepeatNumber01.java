@@ -3,11 +3,11 @@ import java.util.HashMap;
 /**
  * @author Lucas
  * @version 1.0.0
- * @ClassName FindRepeatNumber02.java
+ * @ClassName FindRepeatNumber01.java
  * @Description 数组中重复的数字
  * @createTime 2021年01月26日 21:41:00
  */
-public class FindRepeatNumber02 {
+public class FindRepeatNumber01 {
 
     public static int findRepeatNumber(int[] nums) {
 
