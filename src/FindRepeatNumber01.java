@@ -9,7 +9,7 @@ import java.util.HashMap;
  */
 public class FindRepeatNumber01 {
 
-    public static int findRepeatNumber(int[] nums) {
+    /*public static int findRepeatNumber(int[] nums) {
 
         //由于HashMap的key不重复
         HashMap<Integer,Integer> map = new HashMap<>();
@@ -20,7 +20,27 @@ public class FindRepeatNumber01 {
             map.put(temp, 0);//不存在 这存入map
         }
         return -1;
+    }*/
+
+    //优化答案
+    public static int findRepeatNumber(int[] nums){
+        for (int i = 0; i < nums.length; i++) {
+            while(i != nums[i]) { //出口 下标与值相等
+                if(nums[nums[i]] == nums[i]) { //下标位置已经存在正确的值了 说明重复了
+                    return nums[i];
+                }
+                swap(nums, i, nums[i]); //把当前值与相等下标的值互换
+            }
+        }
+        return -1;
     }
+
+    private static void swap(int[] nums, int i, int j){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
 
     public static void main(String[] args) {
 
