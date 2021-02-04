@@ -62,6 +62,26 @@ public class SingleLinkedList {
         return res;
     }
 
+    /**
+     * @author: Lucas
+     * @createTime: 2021/2/4 11:11
+     * @Description 打印链表
+     * @param: [head]
+     * @retrun: void
+     */
+    public static void print(ListNode head){
+        while (head != null){
+            System.out.print(head.val);
+            head = head.next;
+            if (head == null) {
+                System.out.println();
+            } else {
+                System.out.print(" -> ");
+            }
+        }
+
+    }
+
     public static void main(String[] args) {
         int[] array = new int[]{1,2,3,4,5};
         //head是伪结点
