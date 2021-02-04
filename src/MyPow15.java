@@ -5,7 +5,7 @@
  * @Description 数值的整数次方
  * @createTime 2021年02月03日 13:54:00
  */
-public class MyPow015 {
+public class MyPow15 {
 
     public static double myPow(double x, int n) {
         if (x == 0){
