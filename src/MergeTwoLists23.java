@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class MergeTwoLists23 {
 
-    public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+   /* public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         // 伪节点
         ListNode node = new ListNode(-1);
         ListNode head = node;
@@ -38,6 +38,31 @@ public class MergeTwoLists23 {
             node.next = p;
             node = p;
             l2 = l2.next;
+        }
+        return head.next;
+    }*/
+
+    public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        // 伪节点
+        ListNode head = new ListNode(-1);
+        ListNode node = head;
+        // 尾插法实现
+        while (l1 != null && l2 != null){
+            if (l1.val < l2.val){
+                node.next = l1;
+                l1 = l1.next;
+            }else {
+                node.next = l2;
+                l2 = l2.next;
+            }
+            node = node.next;
+        }
+        // 剩余的都接上
+        if (l1 != null){
+            node.next = l1;
+        }
+        if (l2 != null){
+            node.next = l2;
         }
         return head.next;
     }
