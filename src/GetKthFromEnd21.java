@@ -27,7 +27,7 @@ public class GetKthFromEnd21 {
         int[] array = {1,2,3,4,5};
         ListNode head = new ListNode(-1);
         ListNode p = SingleLinkedList.createTail(array, head);
-        ListNode res = getKthFromEnd(p.next, 2);
+        ListNode res = getKthFromEnd(p, 2);
         SingleLinkedList.print(res);
     }
 }
