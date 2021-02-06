@@ -1,11 +1,11 @@
 /**
  * @author Lucas
  * @version 1.0.0
- * @ClassName GetKthFromEnd.java
+ * @ClassName GetKthFromEnd21.java
  * @Description 链表中倒数第k个节点
  * @createTime 2021年02月06日 13:44:00
  */
-public class GetKthFromEnd {
+public class GetKthFromEnd21 {
 
     public static ListNode getKthFromEnd(ListNode head, int k) {
         // 思路双指针
