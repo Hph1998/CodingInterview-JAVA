@@ -1,18 +1,17 @@
 /**
+ * 单链表及操作
  * @author Lucas
- * @version 1.0.0
- * @ClassName LinkedList.java
- * @Description 顺带复习单链表
- * @createTime 2021年01月27日 10:12:00
+ * @createTime 2021/01/27/ 10:12
  */
 public class SingleLinkedList {
 
     /**
-     * @author: Lucas
-     * @createTime: 2021/1/27 11:12
-     * @Description 头插法建表
-     * @param: [array, head]
-     * @retrun: ListNode
+     * 头插法
+     * @author Lucas
+     * @date 2021/02/07 22:33
+     * @param array 链表数据
+     * @param head 头节点
+     * @return ListNode
      */
     public static ListNode createHead(int[] array, ListNode head){
         for (int value : array) {
@@ -24,11 +23,12 @@ public class SingleLinkedList {
     }
 
     /**
-     * @author: Lucas
-     * @createTime: 2021/1/27 14:39
-     * @Description 尾插法建表
-     * @param: [array, head]
-     * @retrun: ListNode
+     * 尾插法
+     * @author Lucas
+     * @date 2021/02/07 22:34
+     * @param array 链表数据
+     * @param head 头节点
+     * @return ListNode
      */
     public static ListNode createTail(int[] array, ListNode head){
         ListNode t,p;
@@ -43,11 +43,11 @@ public class SingleLinkedList {
     }
 
     /**
-     * @author: Lucas
-     * @createTime: 2021/1/27 15:15
-     * @Description 单链表长度
-     * @param: [head]
-     * @retrun: int
+     * 链表长度
+     * @author Lucas
+     * @date 2021/02/07 22:35
+     * @param head 头节点
+     * @return int
      */
     public static int size(ListNode head){
         int res = 0;
@@ -63,11 +63,11 @@ public class SingleLinkedList {
     }
 
     /**
-     * @author: Lucas
-     * @createTime: 2021/2/4 11:11
-     * @Description 打印链表
-     * @param: [head]
-     * @retrun: void
+     * 输出链表
+     * @author Lucas
+     * @date 2021/02/07 22:35
+     * @param head 头节点
+     * @return void
      */
     public static void print(ListNode head){
         while (head != null){
