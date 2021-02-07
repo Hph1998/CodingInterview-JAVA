@@ -1,11 +1,9 @@
 import java.util.Stack;
 
 /**
+ * 用两个栈实现队列
  * @author Lucas
- * @version 1.0.0
- * @ClassName CQueue06.java
- * @Description 用两个栈实现队列
- * @createTime 2021年01月30日 11:50:00
+ * @date 2021/01/30 11:50
  */
 public class CQueue06 {
 
