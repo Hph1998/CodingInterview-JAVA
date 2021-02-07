@@ -1,9 +1,7 @@
 /**
+ * 链表中倒数第k个节点
  * @author Lucas
- * @version 1.0.0
- * @ClassName GetKthFromEnd21.java
- * @Description 链表中倒数第k个节点
- * @createTime 2021年02月06日 13:44:00
+ * @date 2021/02/06 13:44
  */
 public class GetKthFromEnd21 {
 
