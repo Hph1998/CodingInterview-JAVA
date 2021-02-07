@@ -2,11 +2,9 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
+ * 重建二叉树
  * @author Lucas
- * @version 1.0.0
- * @ClassName BuildTree05.java
- * @Description 重建二叉树
- * @createTime 2021年01月27日 15:21:00
+ * @date 2021/01/27 15:21
  */
 public class BuildTree05 {
 
