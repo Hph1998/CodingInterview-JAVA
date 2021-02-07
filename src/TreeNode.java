@@ -1,9 +1,7 @@
 /**
+ * 树结构
  * @author Lucas
- * @version 1.0.0
- * @ClassName TreeNode.java
- * @Description 树结构
- * @createTime 2021年01月27日 15:21:00
+ * @date 2021/01/27 15:21
  */
 public class TreeNode {
 
