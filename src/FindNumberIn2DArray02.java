@@ -1,9 +1,7 @@
 /**
+ * 二维数组中的查找
  * @author Lucas
- * @version 1.0.0
- * @ClassName FindNumberIn2DArray02.java
- * @Description 二维数组中的查找
- * @createTime 2021年01月26日 15:55:00
+ * @date 2021/01/26 15:55
  */
 public class FindNumberIn2DArray02 {
 
