@@ -1,9 +1,7 @@
 /**
+ * 单链表数据结构
  * @author Lucas
- * @version 1.0.0
- * @ClassName ListNode.java
- * @Description 单链表数据结构
- * @createTime 2021年01月27日 10:07:00
+ * @date 2021/01/27 10:07
  */
 public class ListNode {
     int val;
