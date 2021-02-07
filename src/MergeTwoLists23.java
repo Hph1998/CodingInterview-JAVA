@@ -1,11 +1,9 @@
 import java.util.List;
 
 /**
+ * 合并两个排序的链表
  * @author Lucas
- * @version 1.0.0
- * @ClassName MergeTwoLists23.java
- * @Description 合并两个排序的链表
- * @createTime 2021年02月06日 16:56:00
+ * @date 2021/02/06 16:56
  */
 public class MergeTwoLists23 {
 
