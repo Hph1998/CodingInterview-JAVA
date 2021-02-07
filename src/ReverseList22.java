@@ -1,9 +1,7 @@
 /**
+ * 反转链表
  * @author Lucas
- * @version 1.0.0
- * @ClassName ReverseList22.java
- * @Description 反转链表
- * @createTime 2021年02月06日 14:02:00
+ * @date 2021/02/06 14:02
  */
 public class ReverseList22 {
 
