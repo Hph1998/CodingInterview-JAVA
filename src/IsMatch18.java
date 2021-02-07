@@ -1,9 +1,7 @@
 /**
+ * 正则表达式匹配
  * @author Lucas
- * @version 1.0.0
- * @ClassName IsMatch18.java
- * @Description 正则表达式匹配
- * @createTime 2021年02月04日 11:39:00
+ * @date 2021/02/04 11:39
  */
 public class IsMatch18 {
 
