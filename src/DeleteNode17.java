@@ -1,9 +1,7 @@
 /**
+ * 删除链表的节点
  * @author Lucas
- * @version 1.0.0
- * @ClassName DeleteNode17.java
- * @Description 删除链表的节点
- * @createTime 2021年02月04日 10:52:00
+ * @date 2021/02/04 10:52:00
  */
 public class DeleteNode17 {
 
