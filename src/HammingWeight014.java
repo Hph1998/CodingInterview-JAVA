@@ -1,9 +1,7 @@
 /**
+ * 二进制中1的个数
  * @author Lucas
- * @version 1.0.0
- * @ClassName HammingWeight014.java
- * @Description 二进制中1的个数
- * @createTime 2021年02月03日 13:22:00
+ * @date 2021/02/03 13:22
  */
 public class HammingWeight014 {
 
