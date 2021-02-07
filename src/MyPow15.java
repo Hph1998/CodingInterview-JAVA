@@ -1,9 +1,7 @@
 /**
+ * 数值的整数次方
  * @author Lucas
- * @version 1.0.0
- * @ClassName MyPow015.java
- * @Description 数值的整数次方
- * @createTime 2021年02月03日 13:54:00
+ * @date 2021/02/03 13:54
  */
 public class MyPow15 {
 
