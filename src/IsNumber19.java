@@ -2,11 +2,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 表示数值的字符串
  * @author Lucas
- * @version 1.0.0
- * @ClassName IsNumber19.java
- * @Description 表示数值的字符串
- * @createTime 2021年02月04日 17:35:00
+ * @date 2021/02/04 17:35
  */
 public class IsNumber19 {
 
