@@ -1,11 +1,9 @@
 import java.util.Arrays;
 
 /**
+ * 旋转数组的最小数字
  * @author Lucas
- * @version 1.0.0
- * @ClassName MinArray09.java
- * @Description 旋转数组的最小数字
- * @createTime 2021年01月31日 11:42:00
+ * @date 2021/01/31 11:42
  */
 public class MinArray09 {
 
@@ -13,6 +11,10 @@ public class MinArray09 {
      * 啊这
      * 我干了啥
      * 按题目意思就是输出数组的最小值啊
+     * @author Lucas
+     * @date 2021/02/07 22:42
+     * @param numbers 数组
+     * @return int
      */
     /*public static int minArray(int[] numbers) {
         //排序就完事了
