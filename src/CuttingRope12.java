@@ -1,20 +1,18 @@
 import com.sun.org.apache.bcel.internal.generic.RETURN;
 
 /**
+ * 剪绳子
  * @author Lucas
- * @version 1.0.0
- * @ClassName CuttingRope12.java
- * @Description 剪绳子
- * @createTime 2021年02月02日 20:48:00
+ * @date 2021/02/02 20:48
  */
 public class CuttingRope12 {
 
     /**
-     * @author: Lucas
-     * @createTime: 2021/2/2 21:23
-     * @Description: 这题就很脑筋急转弯 就是均分的情况下乘积最大
-     * @param: [n]
-     * @retrun: int
+     * 这题就很脑筋急转弯 就是均分的情况下乘积最大
+     * @author Lucas
+     * @date 2021/02/07 22:53
+     * @param n 段数
+     * @return int
      */
     public static int cuttingRope(int n) {
         int max = 0;
