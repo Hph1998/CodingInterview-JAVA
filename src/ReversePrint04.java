@@ -1,11 +1,9 @@
 import java.util.Arrays;
 
 /**
+ * 从尾到头打印链表
  * @author Lucas
- * @version 1.0.0
- * @ClassName ReversePrint04.java
- * @Description 从尾到头打印链表
- * @createTime 2021年01月27日 09:38:00
+ * @date 2021/01/27 09:38
  */
 public class ReversePrint04 {
 
