@@ -1,11 +1,9 @@
 import java.util.HashMap;
 
 /**
+ * 数组中重复的数字
  * @author Lucas
- * @version 1.0.0
- * @ClassName FindRepeatNumber01.java
- * @Description 数组中重复的数字
- * @createTime 2021年01月26日 21:41:00
+ * @date 2021/01/26 21:41
  */
 public class FindRepeatNumber01 {
 
@@ -22,7 +20,13 @@ public class FindRepeatNumber01 {
         return -1;
     }*/
 
-    //优化答案
+    /**
+     * 优化答案
+     * @author Lucas
+     * @date 2021/02/07 22:46
+     * @param nums 数组
+     * @return int
+     */
     public static int findRepeatNumber(int[] nums){
         for (int i = 0; i < nums.length; i++) {
             while(i != nums[i]) { //出口 下标与值相等
