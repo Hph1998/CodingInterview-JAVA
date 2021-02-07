@@ -1,24 +1,17 @@
 import java.math.BigInteger;
 
 /**
+ * 剪绳子
  * @author Lucas
- * @version 1.0.0
- * @ClassName CuttingRope13.java
- * @Description 剪绳子
- * @createTime 2021年02月02日 21:56:00
+ * @date 2021/02/02 21:56:00
  */
 public class CuttingRope13  {
 
-    /**
-     * @author: Lucas
-     * @createTime: 2021/2/2 21:23
-     * @Description: 这题就很脑筋急转弯 就是均分的情况下乘积最大
-     * @param: [n]
-     * @retrun: int
-     */
+
     /*public static int cuttingRope(int n) {
         BigInteger max = BigInteger.valueOf(0);
         for (int i = 2; i<= n; i++){
+            //这题就很脑筋急转弯 就是均分的情况下乘积最大
             max = max.max(cutting(n, i));
         }
         return max.remainder(BigInteger.valueOf(1000000007)).intValue();
@@ -34,11 +27,11 @@ public class CuttingRope13  {
     }*/
 
     /**
-     * @author: Lucas
-     * @createTime: 2021/2/3 0:18
-     * @Description: 这个剧数学证明：当n>=3时因数拆分成3的计算结果较大、当n<3时因数越大，结果越大
-     * @param: [n]
-     * @retrun: int
+     * 这个据数学证明：当n>=3时因数拆分成3的计算结果较大、当n<3时因数越大，结果越大
+     * @author Lucas
+     * @date 2021/02/07 22:51
+     * @param n 段数
+     * @return int
      */
     public static int cuttingRope(int n) {
         if (n <= 3) {
