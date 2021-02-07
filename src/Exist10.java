@@ -1,18 +1,17 @@
 /**
+ * 矩阵中的路径
  * @author Lucas
- * @version 1.0.0
- * @ClassName Exist10.java
- * @Description 矩阵中的路径
- * @createTime 2021年01月31日 12:18:00
+ * @date 2021/01/31 12:18
  */
 public class Exist10 {
 
     /**
-     * @author: Lucas
-     * @createTime: 2021/2/1 22:31
-     * @Description 典型的回溯
-     * @param: [board, word]
-     * @retrun: boolean
+     * 典型的回溯
+     * @author Lucas
+     * @date 2021/02/07 22:49
+     * @param board 二维数组字典
+     * @param word 单词
+     * @return boolean
      */
     public static boolean exist(char[][] board, String word) {
 
