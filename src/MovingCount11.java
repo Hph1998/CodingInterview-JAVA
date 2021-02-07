@@ -1,9 +1,7 @@
 /**
+ * 机器人的运动范围
  * @author Lucas
- * @version 1.0.0
- * @ClassName MovingCount11.java
- * @Description 机器人的运动范围
- * @createTime 2021年02月02日 12:52:00
+ * @date 2021/02/02 12:52
  */
 public class MovingCount11 {
 
@@ -24,11 +22,13 @@ public class MovingCount11 {
     }
 
     /**
-     * @author: Lucas
-     * @createTime: 2021/2/2 14:10
-     * @Description 行坐标和列坐标的数位之和与k比较
-     * @param: [x, y, k]
-     * @retrun: boolean
+     * 行坐标和列坐标的数位之和与k比较
+     * @author Lucas
+     * @date 2021/02/07 22:40
+     * @param x 横坐标
+     * @param y 纵坐标
+     * @param k 范围
+     * @return boolean
      */
     public static boolean compare(int x, int y, int k){
         int sumX = x / 100 + (x % 100) / 10 + x % 10;
