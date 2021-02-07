@@ -1,11 +1,9 @@
 import java.util.Arrays;
 
 /**
+ * 调整数组顺序使奇数位于偶数前面
  * @author Lucas
- * @version 1.0.0
- * @ClassName Exchange20.java
- * @Description 调整数组顺序使奇数位于偶数前面
- * @createTime 2021年02月05日 16:21:00
+ * @date 2021/02/05 16:21
  */
 public class Exchange20 {
 
