@@ -1,9 +1,7 @@
 /**
+ * 替换空格
  * @author Lucas
- * @version 1.0.0
- * @ClassName ReplaceSpace03.java
- * @Description 替换空格
- * @createTime 2021年01月26日 23:17:00
+ * @date 2021/01/26 23:17
  */
 public class ReplaceSpace03 {
 
