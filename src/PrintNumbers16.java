@@ -1,11 +1,9 @@
 import java.util.Arrays;
 
 /**
+ * 打印从1到最大的n位数
  * @author Lucas
- * @version 1.0.0
- * @ClassName PrintNumbers16.java
- * @Description 打印从1到最大的n位数
- * @createTime 2021年02月04日 10:30:00
+ * @date 2021/02/04 10:30
  */
 public class PrintNumbers16 {
 
