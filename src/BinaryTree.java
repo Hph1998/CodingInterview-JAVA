@@ -139,7 +139,35 @@ public class BinaryTree {
             }
             root = queue.poll();
         }
+    }
 
+    /**
+     * 广度优先通过数组创建树
+     * @author Lucas
+     * @date 2021/02/08 15:19
+     * @param array 数据
+     * @return TreeNode
+     */
+    public TreeNode levelCreateTree(int[] array){
+        if (array == null || array.length == 0) {
+            return null;
+        }
+        TreeNode root = new TreeNode(array[0]);
+        TreeNode node = root;
+        TreeNode t;
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        for (int i = 1; i < array.length; i++){
+            t = new TreeNode(array[i]);
+            if (node.left == null){
+                node.left = t;
+                queue.offer(node.left);
+            }else if (node.right == null){
+                node.right = t;
+                queue.offer(node.left);
+                node = queue.remove();
+            }
+        }
+        return root;
     }
 
 }
