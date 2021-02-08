@@ -1,4 +1,5 @@
-import sun.reflect.generics.tree.Tree;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * 二叉树及操作
@@ -53,4 +54,92 @@ public class BinaryTree {
             return 1 + size(root.left) + size(root.right);
         }
     }
+
+    /**
+     * 返回某节点的父亲节点
+     * @author Lucas
+     * @date 2021/02/08 10:27
+     * @param root 树的根节点
+     * @param node 需要查找父节点的节点
+     * @return TreeNode
+     */
+    public TreeNode getParent(TreeNode root, TreeNode node){
+        if (root == null || root == node){
+            return null;
+        }
+        if(root.left == node || root.right == node){
+            return root;
+        }
+        getParent(root.left, node);
+        getParent(root.right, node);
+        return null;
+    }
+
+    /**
+     * 前序遍历
+     * @author Lucas
+     * @date 2021/02/08 11:08
+     * @param root 根节点
+     * @return void
+     */
+    public void perOrder(TreeNode root){
+        if (root != null){
+            System.out.println(root.val);
+            perOrder(root.left);
+            perOrder(root.right);
+        }
+    }
+
+    /**
+     * 中序遍历
+     * @author Lucas
+     * @date 2021/02/08 11:10
+     * @param root 根节点
+     * @return void
+     */
+    public void inOrder(TreeNode root){
+        if (root != null){
+            inOrder(root.left);
+            System.out.println(root.val);
+            inOrder(root.right);
+        }
+    }
+
+    /**
+     * 后序遍历
+     * @author Lucas
+     * @date 2021/02/08 11:19
+     * @param root 根节点
+     * @return void
+     */
+    public void postOrder(TreeNode root){
+        if (root != null){
+            postOrder(root.left);
+            postOrder(root.right);
+            System.out.println(root.val);
+        }
+    }
+
+    /**
+     * 层序遍历
+     * @author Lucas
+     * @date 2021/02/08 13:57
+     * @param root 根节点
+     * @return void
+     */
+    public void levelOrderTraverse(TreeNode root){
+        Queue<TreeNode> queue = new LinkedList<>();
+        while (root != null){
+            System.out.println(root.val);
+            if (root.left != null){
+                queue.offer(root.left);
+            }
+            if (root.right != null){
+                queue.offer(root.right);
+            }
+            root = queue.poll();
+        }
+
+    }
+
 }
