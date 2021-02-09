@@ -163,7 +163,7 @@ public class BinaryTree {
                 queue.offer(node.left);
             }else if (node.right == null){
                 node.right = t;
-                queue.offer(node.left);
+                queue.offer(node.right);
                 node = queue.remove();
             }
         }
