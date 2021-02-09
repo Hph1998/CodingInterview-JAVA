@@ -19,7 +19,7 @@ public class IsSubStructure24 {
         if (A == null || B == null) {
             return false;
         }
-
+        // 递归找到A中以B的根节点为root的子树
         return compare(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B);
     }
 
