@@ -155,7 +155,29 @@ public class BinaryTree {
         TreeNode root = new TreeNode(array[0]);
         TreeNode node = root;
         TreeNode t;
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        for (int i = 1; i < array.length; i++){
+            t = new TreeNode(array[i]);
+            if (node.left == null){
+                node.left = t;
+                queue.offer(node.left);
+            }else if (node.right == null){
+                node.right = t;
+                queue.offer(node.right);
+                node = queue.remove();
+            }
+        }
+        return root;
+    }
+
+    public TreeNode levelCreateTree(Integer[] array){
+        if (array == null || array.length == 0) {
+            return null;
+        }
+        TreeNode root = new TreeNode(array[0]);
+        TreeNode node = root;
+        TreeNode t;
+        Queue<TreeNode> queue = new LinkedList<>();
         for (int i = 1; i < array.length; i++){
             t = new TreeNode(array[i]);
             if (node.left == null){
